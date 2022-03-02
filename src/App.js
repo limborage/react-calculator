@@ -60,7 +60,7 @@ export function CalcButton(props) {
 
     return (
         <div className={`col-${colSize} col-sm-${colSize} col-md-${colSize} col-lg-${colSize} col-xl-${colSize} calc-button`}>
-            <Button variant="primary">
+            <Button variant="primary" className={"w-100 mb-1"}>
                 { props.text }
             </Button>
         </div>
