@@ -112,7 +112,7 @@ class CalcButtons extends React.Component {
         });
 
         return (
-            <div className="row calc-buttons-row">
+            <div className="row calc-buttons-row mt-3">
                 {calculatorButtons}
             </div>
         );
